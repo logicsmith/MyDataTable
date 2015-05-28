@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MyDataTable</title>
+	
+	<!--JQuery-->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	
+	<!--JQuery UI-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+	
+	<!--MyDataTable-->
+	<link rel="stylesheet" type="text/css" href="../src/mydatatable.css" />
+	<script type="text/javascript" src="../src/mydatatable.js"></script>
+	
+	<!--Document-->
+	<script language="javascript" type="text/javascript">
+		$(document).ready(function() {
+			
+		});
+	</script>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+<div class="mydatatable-container">
+	<table class="mydatatable-table">
+		<thead>
+			<th class="mydatatable-headrow">
+				<td class="mydatatable-colheader">
+					<span class="mydatatable-colheader-text"></span>
+					<a class="mydatatable-colheader-btn"></a><!--action: sort, dropdown-->
+				</td>
+			</th>
+			<th class="mydatatable-headrow-expansion"><!--column action tool box-->
+				<td class="mydatatable-colexpand" colspan="5"></td>
+			</th>
+		</thead>
+		<tbody>
+			<tr class="mydatatable-row">
+				<td class="mydatatable-col"></td>
+			</tr>
+			<tr class="mydatatable-row-expansion"><!--cotent related to parent rows-->
+				<td class="mydatatable-colexpand" colspan="5"></td>
+			</tr>
+			<tr class="mydatatable-grouphrow"><!--group header-->
+				<td class="mydatatable-colhgroup" colspan="5"></td>
+			</tr>
+			<tr class="mydatatable-groupfrow"><!--group footer-->
+				<td class="mydatatable-colfgroup" colspan="5"></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+</body>
+</html>
